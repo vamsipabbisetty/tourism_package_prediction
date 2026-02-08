@@ -1,7 +1,7 @@
 from huggingface_hub.utils import RepositoryNotFoundError, HfHubHTTPError
 from huggingface_hub import HfApi, create_repo
 import os
-
+'''
 try:
     os.environ["HF_TOKEN"] = userdata.get('HF_TOKEN')
     print("HF_TOKEN loaded from Colab Secrets.")
@@ -9,7 +9,7 @@ except userdata.SecretError:
     print("HF_TOKEN not found in Colab Secrets. Please add it or set it manually.")
 
 login(token=os.getenv("HF_TOKEN"))
-
+'''
 repo_id = "vamshf/tourism-package-prediction"
 repo_type = "dataset"
 
