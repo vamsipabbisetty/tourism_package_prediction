@@ -61,10 +61,10 @@ X = df.drop(columns=target)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
 
-X_train.to_csv("Xtrain_proc.csv",index=False)
-X_test.to_csv("Xtest_proc.csv",index=False)
-y_train.to_csv("ytrain.csv",index=False)
-y_test.to_csv("ytest.csv",index=False)
+X_train.to_csv("X_train.csv",index=False)
+X_test.to_csv("X_test.csv",index=False)
+y_train.to_csv("y_train.csv",index=False)
+y_test.to_csv("y_test.csv",index=False)
 
 
 files = ["X_train.csv","X_test.csv","y_train.csv","y_test.csv"]
