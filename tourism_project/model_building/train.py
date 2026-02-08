@@ -29,10 +29,10 @@ api = HfApi(token=os.getenv("HF_TOKEN"))
 DATASET_PATH = f"hf://{repo_type}/{repo_id}/tourism.csv"
 
 
-Xtrain_path = f"hf://{repo_type}/{repo_id}/Xtrain.csv"
-Xtest_path = f"hf://{repo_type}/{repo_id}/Xtest.csv"
-ytrain_path = f"hf://{repo_type}/{repo_id}/ytrain.csv"
-ytest_path = f"hf://{repo_type}/{repo_id}/ytest.csv"
+Xtrain_path = f"hf://{repo_type}/{repo_id}/X_train.csv"
+Xtest_path = f"hf://{repo_type}/{repo_id}/X_test.csv"
+ytrain_path = f"hf://{repo_type}/{repo_id}/y_train.csv"
+ytest_path = f"hf://{repo_type}/{repo_id}/y_test.csv"
 
 X_train = pd.read_csv(Xtrain_path)
 X_test = pd.read_csv(Xtest_path)
