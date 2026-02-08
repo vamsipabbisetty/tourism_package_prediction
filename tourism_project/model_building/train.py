@@ -22,7 +22,7 @@ mlflow.set_experiment("torism-training-experiment")
 api = HfApi()
 
 repo_id = "vamshf/tourism-package-prediction"
-repo_type = "dataset"
+repo_type = "datasets"
 
 # Define constants for the dataset and output paths
 api = HfApi(token=os.getenv("HF_TOKEN"))
