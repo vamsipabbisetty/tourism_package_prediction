@@ -74,5 +74,5 @@ for file_path in files:
         path_or_fileobj=file_path,
         path_in_repo=file_path.split("/")[-1],  # just the filename
         repo_id=repo_id,
-        repo_type="datasets",
+        repo_type="dataset",
     )
